@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="USERNAME.DEMOABSOLUTLAYAUT">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Button BackgroundColor="Green"
+                    Text="ENVIA"
+                    AbsoluteLayout.LayoutBounds="10,10,150,150">                
+            </Button>
+            <Button BackgroundColor="Red"
+                    Text="ENVIA"
+                    AbsoluteLayout.LayoutBounds="20,20,150,150"
+                    Opacity="1">
+            </Button>
+
+            <Button BackgroundColor="Black"
+                    Text="ENVIA"
+                    AbsoluteLayout.LayoutBounds="50,50,150,.5"
+                    AbsoluteLayout.LayoutFlags="HeightProportional"
+                    Opacity="1">
+            </Button>
+
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

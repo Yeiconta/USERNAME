@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:USERNAME"
+             x:Class="USERNAME.MainPage">
+
+    <StackLayout Spacing="0"
+                 Padding="0"
+                 BackgroundColor="Aqua">
+        <BoxView HorizontalOptions="FillAndExpand"
+                 HeightRequest="100"
+                 VerticalOptions="Start"
+                 Color="Blue" />
+        <Button BorderRadius="30"
+                HeightRequest="60"
+                WidthRequest="60"
+                BackgroundColor="Red"
+                HorizontalOptions="Center"
+                VerticalOptions="Start" />
+        <StackLayout HeightRequest="100" 
+                     VerticalOptions="Start"
+                     HorizontalOptions="FillAndExpand"
+                     Spacing="20" BackgroundColor="Aqua">
+            <Label Text="Nombre de Usuario"
+                   TextColor="Violet"
+                   FontSize="28"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" 
+                   FontAttributes="Bold" />
+            <Entry Text="Ingrese Usuario"
+                   TextColor="Orange"
+                   BackgroundColor="Aqua"
+                   HorizontalOptions="FillAndExpand"
+                   VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+   
+        <StackLayout Orientation="Horizontal">
+            <Label FontSize="14"
+                   Text="Edad:"
+                   TextColor="Violet"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Center"
+                   WidthRequest="100">                
+            </Label>
+            <Entry HorizontalOptions="FillAndExpand"
+                   Placeholder="Ingrese su edad"
+                   TextColor="White"
+                   BackgroundColor="White" >                
+            </Entry>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label FontSize="14"
+                   Text="Intereses:"
+                   TextColor="Violet"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Center"
+                   WidthRequest="100" >                
+            </Label>
+            <Entry HorizontalOptions="FillAndExpand"
+                   Placeholder="Xamarin.Forms"
+                   TextColor="White"
+                   BackgroundColor="White" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label FontSize="14"
+                   Text="Aprende:" 
+                   TextColor="Violet"
+                   HorizontalOptions="Start" 
+                   VerticalOptions="Center"
+                   WidthRequest="100"/>
+            <Entry HorizontalOptions="FillAndExpand"
+                   Placeholder="Xamarin Forms.NET"
+                   TextColor="White" 
+                   BackgroundColor="White" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label FontSize="14"
+                   Text="Otros:"
+                   TextColor="Violet"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Center" 
+                   WidthRequest="100"/>
+            <Entry HorizontalOptions="FillAndExpand"
+                   Placeholder="Xamarin Forms.NET"
+                   TextColor="White" BackgroundColor="White">                
+            </Entry>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
